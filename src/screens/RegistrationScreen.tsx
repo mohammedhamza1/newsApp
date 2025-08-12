@@ -154,6 +154,7 @@ const RegistrationScreen: React.FC<Props> = ({ navigation }) => {
 const styles = StyleSheet.create({
   keyboardAvoid: {
     flex: 1,
+    paddingVertical: 20,
   },
   scrollContent: {
     flexGrow: 1,
